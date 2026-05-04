@@ -646,29 +646,29 @@ const rawAnatomyItems: AccordionItem[] = [
         group: "Muslo anterior",
         name: "Vastos medial y lateral",
         function: "Extensión de rodilla.",
-        origin: "Vasto lateral: trocánter mayor y labio lateral de la línea áspera. Vasto medial: línea intertrocantérica y labio medial de la línea áspera.",
-        insertion: "No detallado en el contenido base."
+        origin: "Vasto lateral: trocánter mayor del fémur y labio lateral de la línea áspera. Vasto medial: línea intertrocantérica y labio medial de la línea áspera.",
+        insertion: "Rótula mediante el tendón del cuádriceps; continúan como ligamento patelar hasta la tuberosidad de la tibia."
       },
       {
         group: "Aductores",
         name: "Pectíneo",
         function: "Aducción y flexión del muslo.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Pecten del pubis, en la rama superior del pubis.",
+        insertion: "Línea pectínea del fémur, justo por debajo del trocánter menor."
       },
       {
         group: "Aductores",
         name: "Aductores corto, largo y magno",
         function: "Aducción del muslo.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Aductor corto: cuerpo y rama inferior del pubis. Aductor largo: cuerpo del pubis cerca de la sínfisis. Aductor magno: rama inferior del pubis, rama del isquion y tuberosidad isquiática.",
+        insertion: "Aductor corto: línea pectínea y parte proximal de la línea áspera. Aductor largo: tercio medio de la línea áspera. Aductor magno: línea áspera y tubérculo del aductor del fémur."
       },
       {
         group: "Aductores",
         name: "Grácil",
         function: "Aducción y flexión de rodilla.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Cuerpo y rama inferior del pubis.",
+        insertion: "Cara medial de la tibia, formando parte de la pata de ganso."
       },
       {
         group: "Muslo posterior",
@@ -688,78 +688,78 @@ const rawAnatomyItems: AccordionItem[] = [
         group: "Muslo posterior",
         name: "Semimembranoso",
         function: "Flexión de rodilla y extensión de cadera.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Tuberosidad isquiática.",
+        insertion: "Cara posterior del cóndilo medial de la tibia; también emite una expansión que forma el ligamento poplíteo oblicuo."
       },
       {
         group: "Pierna posterior",
         name: "Gastrocnemios",
         function: "Flexión plantar y flexión de rodilla.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Cabeza medial en el cóndilo medial del fémur y cabeza lateral en el cóndilo lateral del fémur.",
+        insertion: "Ambas cabezas forman el tendón calcáneo o tendón de Aquiles, que se inserta en el calcáneo."
       },
       {
         group: "Pierna posterior",
         name: "Sóleo",
         function: "Flexión plantar.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Línea del sóleo en la cara posterior de la tibia, cabeza y cara posterior de la fíbula, y arco tendinoso entre tibia y fíbula.",
+        insertion: "Calcáneo a través del tendón calcáneo o tendón de Aquiles."
       },
       {
         group: "Pierna posterior",
         name: "Tibial posterior",
         function: "Inversión del pie.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Cara posterior de la tibia por debajo de la línea del sóleo, cara posterior de la fíbula y membrana interósea.",
+        insertion: "Tuberosidad del navicular, con expansiones hacia cuneiformes, cuboides y bases de metatarsianos."
       },
       {
         group: "Pierna posterior",
         name: "Flexor largo del hallux",
         function: "Flexiona el dedo gordo.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Dos tercios inferiores de la cara posterior de la fíbula y membrana interósea.",
+        insertion: "Base de la falange distal del hallux."
       },
       {
         group: "Pierna posterior",
         name: "Flexor largo de los dedos",
         function: "Flexión de los dedos.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Cara posterior de la tibia, por debajo de la línea del sóleo.",
+        insertion: "Bases de las falanges distales de los dedos 2 a 5."
       },
       {
         group: "Pierna lateral",
         name: "Peroneo largo y corto",
         function: "Eversión del pie.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Peroneo largo: cabeza y dos tercios proximales de la fíbula. Peroneo corto: dos tercios distales de la fíbula.",
+        insertion: "Peroneo largo: base del primer metatarsiano y cuneiforme medial. Peroneo corto: base del quinto metatarsiano."
       },
       {
         group: "Pierna lateral",
         name: "Tercer peroneo",
         function: "Ayuda a la dorsiflexión.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Tercio distal de la cara anterior de la fíbula y membrana interósea.",
+        insertion: "Cara dorsal de la base del quinto metatarsiano."
       },
       {
         group: "Pierna anterior",
         name: "Tibial anterior",
         function: "Dorsiflexión e inversión.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Cóndilo lateral de la tibia, dos tercios superiores de la cara lateral de la tibia y membrana interósea.",
+        insertion: "Cuneiforme medial y base del primer metatarsiano."
       },
       {
         group: "Pierna anterior",
         name: "Extensor largo de los dedos",
         function: "Extensión de los dedos.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Cóndilo lateral de la tibia, cara anterior de la fíbula y membrana interósea.",
+        insertion: "Falanges media y distal de los dedos 2 a 5 mediante expansiones dorsales."
       },
       {
         group: "Pierna anterior",
         name: "Extensor largo del hallux",
         function: "Extensión del dedo gordo.",
-        origin: "No detallado en el contenido base.",
-        insertion: "No detallado en el contenido base."
+        origin: "Cara anterior de la fíbula, especialmente en su porción media, y membrana interósea.",
+        insertion: "Base de la falange distal del hallux."
       }
     ]
   }
