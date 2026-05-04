@@ -260,6 +260,193 @@ const muscleMedia: Record<string, { imageUrl?: string; videoUrl?: string }> = {
   }
 };
 
+const updatedVideoMedia: Record<string, { videoUrl: string }> = {
+  "Flexor largo del hallux": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925514/Flexor_largo_del_hallux_x9pabg.mp4"
+  },
+  "Tibial posterior": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925513/Tibial_posterior_kng93q.mp4"
+  },
+  Sóleo: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925512/Soleo_t9w2wp.mp4"
+  },
+  Gastrocnemios: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925510/Gastronecmios_vlnbde.mp4"
+  },
+  Semimembranoso: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925509/Semi_menbranoso_zs6ioz.mp4"
+  },
+  Semitendinoso: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925508/Semitendinoso_akyszm.mp4"
+  },
+  "Bíceps femoral": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925506/B%C3%ADceps_femoral_emtlfu.mp4"
+  },
+  Grácil: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925505/Gr%C3%A1cil_mtr6qk.mp4"
+  },
+  "Aductores corto, largo y magno": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925504/Aductores_jmehcw.mp4"
+  },
+  Pectíneo: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925502/Pactineo_vnm1gc.mp4"
+  },
+  "Vastos medial y lateral": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925501/Vastos_gldkin.mp4"
+  },
+  "Recto femoral": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925500/Recto_femoral_yura9j.mp4"
+  },
+  Sartorio: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925498/Sartorio_rghdpx.mp4"
+  },
+  "Tensor de la fascia lata": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925497/Tensor_de_la_fascia_lata_bs70qh.mp4"
+  },
+  "Psoas mayor, psoas menor e ilíaco": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925496/Psoas_mayor_menor_iliac_bqixmr.mp4"
+  },
+  "Cuadrado femoral": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925494/Cuadrado_femoral_lnst0a.mp4"
+  },
+  "Géminos superior e inferior": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925493/G%C3%A9minos_inferior_y_superior_kp03uv.mp4"
+  },
+  "Obturador interno": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925492/Obturador_interno_og9cza.mp4"
+  },
+  "Glúteo medio y menor": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925489/Gl%C3%BAteo_medio_y_menor_csewni.mp4"
+  },
+  Piriforme: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925490/Piriforme_wcz8gz.mp4"
+  },
+  "Glúteo mayor": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925488/Gl%C3%BAteo_mayor_fbilxy.mp4"
+  },
+  "Abductor del pulgar": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925486/Abductor_del_pulgar_z2liaa.mp4"
+  },
+  "Extensor del índice": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925485/Extensor_del_%C3%ADndice_zjbo5u.mp4"
+  },
+  "Extensor del meñique": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925484/Extensor_del_me%C3%B1ique_z2k1z5.mp4"
+  },
+  "Extensor cubital del carpo": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925483/Extensor_cubital_del_carpo_c3whhu.mp4"
+  },
+  "Extensor de los dedos": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925481/Extensor_de_los_dedos_mxdmqh.mp4"
+  },
+  "Extensor radial largo y corto del carpo": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925480/Extensor_radial_largo_y_corto_del_carpo_escstu.mp4"
+  },
+  "Flexor largo del pulgar": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925479/Flexor_largo_del_pulgar_maitgl.mp4"
+  },
+  "Flexor profundo de los dedos": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925478/Flexor_profundo_de_los_dedos_rszfak.mp4"
+  },
+  "Flexor superficial de los dedos": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925476/Flexor_superficial_de_los_dedos_mzwe8n.mp4"
+  },
+  "Palmar largo": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925475/Palmar_largo_dq5ii3.mp4"
+  },
+  "Flexor cubital del carpo": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925474/Flexor_cubital_del_carpo_gxy50j.mp4"
+  },
+  "Flexor radial del carpo": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925473/Flexor_radial_del_carpo_g87awp.mp4"
+  },
+  "Palmar corto": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925471/Palmar_corto_nk2r3t.mp4"
+  },
+  "Interóseos palmares": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925470/INTEROSEOS_palmares_asqswj.mp4"
+  },
+  "Interóseos dorsales": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925469/INTEROSEOS_dorsales_rhnl5p.mp4"
+  },
+  Lumbricales: {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925467/Lumbricales_en9mn2.mp4"
+  },
+  "Oponente del pulgar": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925466/Oponente_del_pulgar_aoidmm.mp4"
+  },
+  "Abductor del meñique": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925465/Abductor_del_me%C3%B1ique_juqgy0.mp4"
+  },
+  "Oponente del meñique": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925464/Oponente_del_me%C3%B1ique_sgrh7t.mp4"
+  },
+  "Extensor largo del hallux": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925462/Extensor_largo_del_hallux_eitg2d.mp4"
+  },
+  "Extensor largo de los dedos": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925461/Extensor_largo_de_los_dedos_clf2gf.mp4"
+  },
+  "Tibial anterior": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925460/Tibial_anterior_p7jive.mp4"
+  },
+  "Tercer peroneo": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925458/Tercer_peroneo_t3vu3x.mp4"
+  },
+  "Peroneo largo y corto": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925457/Peroneo_largo_y_corto_i1exrw.mp4"
+  },
+  "Flexor largo de los dedos": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777925456/Flexor_largo_de_los_dedos_ja1zdv.mp4"
+  }
+};
+
 const rawAnatomyItems: AccordionItem[] = [
   {
     title: "Tronco",
@@ -793,7 +980,8 @@ const anatomyItems: AccordionItem[] = rawAnatomyItems.map((section) => ({
   ...section,
   muscles: section.muscles.map((muscle) => ({
     ...muscle,
-    ...muscleMedia[muscle.name]
+    ...muscleMedia[muscle.name],
+    ...updatedVideoMedia[muscle.name]
   }))
 }));
 
