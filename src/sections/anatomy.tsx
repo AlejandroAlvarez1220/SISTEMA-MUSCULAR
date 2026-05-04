@@ -108,11 +108,19 @@ const muscleMedia: Record<string, { imageUrl?: string; videoUrl?: string }> = {
   },
   Braquiorradial: {
     imageUrl:
-      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777851271/BRAQUIORADIAL_jwyv1k.jpg"
+      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777851271/BRAQUIORADIAL_jwyv1k.jpg",
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777919116/BRAQUIORADIAL_frdt0l.mov"
   },
   Ancóneo: {
     imageUrl:
-      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777851271/AC%C3%93NEO_neqjni.jpg"
+      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777851271/AC%C3%93NEO_neqjni.jpg",
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777918841/AC%C3%93NEO_dsgk5w.mov"
+  },
+  "Braquial anterior": {
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777919156/BRAQUIAL_ANTERIOR_b6rwmz.mov"
   },
   "Pronador redondo": {
     imageUrl:
@@ -120,19 +128,33 @@ const muscleMedia: Record<string, { imageUrl?: string; videoUrl?: string }> = {
   },
   Supinador: {
     imageUrl:
-      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777851277/SUPINADOR_tro6ei.png"
+      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777851277/SUPINADOR_tro6ei.png",
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777918559/SUPINADOR_biosu1.mov"
+  },
+  "Pronador cuadrado": {
+    imageUrl:
+      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777919675/IMG_1194_d8zkco.png",
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777918724/PRONADOR_CUADRADO_d6jrlv.mov"
   },
   "Abductor del pulgar": {
+    imageUrl:
+      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777919478/IMG_1195_r7eaao.png",
     videoUrl:
       "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777851469/ABDUCTOR_DEL_PULGAR_largo_y_corto_ae3yku.mp4"
   },
   "Aductor del pulgar": {
+    imageUrl:
+      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777919740/IMG_1196_yro0vq.jpg",
     videoUrl:
       "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777851469/ADUCTOR_DEL_PULGAR_olqsiw.mp4"
   },
   "Flexor corto del pulgar": {
     imageUrl:
-      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777851273/FLEXOR_CORTO_DEL_PULGAR_v3ofj7.png"
+      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777851273/FLEXOR_CORTO_DEL_PULGAR_v3ofj7.png",
+    videoUrl:
+      "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777918150/FLEXOR_CORTO_DEL_PULGAR_womfte.mov"
   },
   "Oponente del pulgar": {
     imageUrl:
