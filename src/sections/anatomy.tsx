@@ -119,6 +119,8 @@ const muscleMedia: Record<string, { imageUrl?: string; videoUrl?: string }> = {
       "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777918841/AC%C3%93NEO_dsgk5w.mov"
   },
   "Braquial anterior": {
+    imageUrl:
+      "https://res.cloudinary.com/deflpc2nl/image/upload/q_auto/f_auto/v1777920114/IMG_1193_z6x3po.png",
     videoUrl:
       "https://res.cloudinary.com/deflpc2nl/video/upload/q_auto/f_auto/v1777919156/BRAQUIAL_ANTERIOR_b6rwmz.mov"
   },
