@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="Sistema muscular humano">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1e293b"/>
+      <stop offset=".55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx=".58" cy=".42" r=".42">
+      <stop offset="0" stop-color="#ef4444" stop-opacity=".55"/>
+      <stop offset=".55" stop-color="#ef4444" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="muscle" x1="0" x2="1">
+      <stop offset="0" stop-color="#fca5a5"/>
+      <stop offset=".45" stop-color="#ef4444"/>
+      <stop offset="1" stop-color="#991b1b"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#pulse)"/>
+  <g opacity=".18" stroke="#ffffff" stroke-width="2">
+    <path d="M120 178h520M140 274h380M1180 176h580M1270 282h470M1140 844h560M170 855h520"/>
+    <circle cx="1540" cy="285" r="92" fill="none"/>
+    <circle cx="360" cy="812" r="132" fill="none"/>
+  </g>
+  <g transform="translate(825 142)">
+    <path d="M142 0c43 0 78 34 78 76s-35 76-78 76-78-34-78-76 35-76 78-76z" fill="#fecaca"/>
+    <path d="M94 151h96l56 134-30 285H66L38 285z" fill="url(#muscle)"/>
+    <path d="M52 206c-54 22-93 74-117 155l-59 206 77 22 61-184c22-62 42-96 70-113z" fill="#dc2626"/>
+    <path d="M230 206c54 22 93 74 117 155l59 206-77 22-61-184c-22-62-42-96-70-113z" fill="#dc2626"/>
+    <path d="M74 566h65l-16 329H34z" fill="#b91c1c"/>
+    <path d="M147 566h65l40 329h-89z" fill="#ef4444"/>
+    <g stroke="#7f1d1d" stroke-width="10" stroke-linecap="round" opacity=".75">
+      <path d="M111 194c5 74 1 171-14 291M177 194c-10 91-8 189 6 291M78 614c33 74 43 168 29 278M188 614c-12 91-8 185 12 278"/>
+      <path d="M-59 372c48 43 76 99 84 167M342 372c-48 43-76 99-84 167"/>
+    </g>
+  </g>
+  <g transform="translate(1180 470)" fill="none" stroke="#f87171" stroke-linecap="round">
+    <path d="M0 0c120-90 255-90 406 0" stroke-width="6" opacity=".65"/>
+    <path d="M36 75c92-67 201-67 327 0" stroke-width="4" opacity=".45"/>
+    <path d="M72 146c72-44 157-44 255 0" stroke-width="3" opacity=".35"/>
+  </g>
+</svg>
